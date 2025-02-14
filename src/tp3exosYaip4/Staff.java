@@ -37,4 +37,11 @@ public class Staff extends Person{
 				",school=" + this.school +
 				",pay=" + this.pay + "]");
 	}
+	
+	
+	// <==== Test ====>
+	public static void main(String[] arg) {
+		Person p = new Staff("unNom", "Rue Quelque Part", "Université Aix-Marseille", 2200.0);
+		System.out.println(p);
+	}
 }
