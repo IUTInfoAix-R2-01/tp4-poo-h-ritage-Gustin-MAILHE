@@ -10,3 +10,5 @@ Ne pas modifier ce fichier.
 
 Modification Gustin-MAILHE :
  - Creation de la classe Velo
+ - Creation de la classe VeloElec
+ - Modification du README
