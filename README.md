@@ -19,3 +19,4 @@ Modification Gustin-MAILHE :
  - Maj de la class Staff
  - Creation des classes Circle et Cylinder
  - Creation des classes Animal, Cat, Dog et BigDog
+ - Creation des classes GeometricObject, Circle et Rectangle
