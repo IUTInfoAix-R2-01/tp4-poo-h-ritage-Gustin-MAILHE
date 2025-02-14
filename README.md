@@ -14,3 +14,4 @@ Modification Gustin-MAILHE :
  - Modification du README
  - Creation du fichier reponsesTP.txt pour répondre aux questions du TP
  - MAJ des classes Velo et VeloElec
+ - Creation de la classe Person, Staff et Student
