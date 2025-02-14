@@ -13,5 +13,7 @@ Modification Gustin-MAILHE :
  - Creation de la classe VeloElec
  - Modification du README
  - Creation du fichier reponsesTP.txt pour répondre aux questions du TP
- - MAJ des classes Velo et VeloElec
- - Creation de la classe Person, Staff et Student
+ - Maj des classes Velo et VeloElec
+ - Creation des classes Person, Staff et Student
+ - Creation des classes Animal, Mammal, Cat et Dog
+ - Maj de la class Staff
