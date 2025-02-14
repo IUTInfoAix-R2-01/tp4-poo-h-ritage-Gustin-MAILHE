@@ -48,6 +48,7 @@ public class Velo {
 		this.setDiamRoue(diamRoue);
 	}
 	
+	@Override
 	public String toString() {
 		return ("Velo [braquet=" + this.braquet + ",diamRoue=" + this.diamRoue + "]");
 	}

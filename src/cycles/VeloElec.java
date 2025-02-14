@@ -21,6 +21,7 @@ public class VeloElec extends Velo {
 		this.facteurPuissanceMoteur = facteurPuissanceMoteur;
 	}
 	
+	@Override
 	public String toString() {
 		return ("VeloElec [faceutPuissanceMoteur=" + this.facteurPuissanceMoteur + "]");
 	}
@@ -33,7 +34,7 @@ public class VeloElec extends Velo {
 	// <==== Consturceur ====>
 	public VeloElec() {
 		super();
-		
+		this.setFacteurPuissanceMoteur(DEFAUT_FACTEUR_PUISSANCE_MOTEUR);
 	}
 	public VeloElec(double diamRoue, double coupleMoteur) {
 		super();
