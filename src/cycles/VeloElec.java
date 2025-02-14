@@ -1,6 +1,8 @@
 package cycles;
 
-public class VeloElec {
+import java.util.Random;
+
+public class VeloElec extends Velo {
 	private static double DEFAUT_FACTEUR_PUISSANCE_MOTEUR = 15.0;
 	private double facteurPuissanceMoteur;
 	
@@ -19,23 +21,39 @@ public class VeloElec {
 		this.facteurPuissanceMoteur = facteurPuissanceMoteur;
 	}
 	
+	public String toString() {
+		return ("VeloElec [faceutPuissanceMoteur=" + this.facteurPuissanceMoteur + "]");
+	}
 	
+	@Override
+	public double getPuissance(double FrequenceCoupsDePedale) {
+		return super.getPuissance(FrequenceCoupsDePedale)*this.facteurPuissanceMoteur;
+	}
 	
 	// <==== Consturceur ====>
 	public VeloElec() {
-		// TODO Auto-generated constructor stub
+		super();
+		
 	}
-	public VeloElec() {
-		// TODO Auto-generated constructor stub
+	public VeloElec(double diamRoue, double coupleMoteur) {
+		super();
+		super.setDiamRoue(diamRoue);
+		this.setFacteurPuissanceMoteur(coupleMoteur);
 	}
-	public VeloElec() {
-		// TODO Auto-generated constructor stub
+	public VeloElec(double diamRoue, double coupleMoteur, double braquet) {
+		super();
+		super.setDiamRoue(diamRoue);
+		super.setBraquet(braquet);
+		this.setFacteurPuissanceMoteur(coupleMoteur);
 	}
 	
 	// <===== Fonction test ====>
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] arg) {
+		Random nbRd = new Random();
+		Velo monVelo = new VeloElec(15.0, 6.0);
+		monVelo.setGenAlea(nbRd);
+		System.out.println(monVelo);
+		System.out.println(monVelo.getPuissance(10.0));
 	}
 
 }
