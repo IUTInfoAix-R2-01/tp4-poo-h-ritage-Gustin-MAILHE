@@ -1,0 +1,22 @@
+Question 5 :
+"redéfinir une méthode" signifie dans une classe fille de définire
+une méthode déjà présente dans la classe mère, on précisera que l'on
+redéfinit la méthode de la classe mère en écrivant "@Override" sur la 
+ligne précédant la méthode.
+
+Question 6 :
+les méthodes de Velo et VeloElec qui sont redéfinit sont
+ - getPuissance()
+
+Question 7 :
+voir question 5
+
+Q8 :
+Override permet lors de l'execution de s'assurer que l'on a pas fait de
+faute dans le nom de la méthode à redéfinir. Néanmoin, si la méthode est
+correctement nommée, ras.
+
+Q10 :
+super.getPuissance(FrequeceCoupsDePedale) dans la classe VeloElec appelle
+la méthode getPuissance de la classe mère, soit Velo.
+
