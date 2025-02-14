@@ -12,3 +12,5 @@ Modification Gustin-MAILHE :
  - Creation de la classe Velo
  - Creation de la classe VeloElec
  - Modification du README
+ - Creation du fichier reponsesTP.txt pour répondre aux questions du TP
+ - MAJ des classes Velo et VeloElec
