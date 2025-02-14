@@ -18,3 +18,4 @@ Modification Gustin-MAILHE :
  - Creation des classes Animal, Mammal, Cat et Dog
  - Maj de la class Staff
  - Creation des classes Circle et Cylinder
+ - Creation des classes Animal, Cat, Dog et BigDog
